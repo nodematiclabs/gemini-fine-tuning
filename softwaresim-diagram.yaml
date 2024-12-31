@@ -1,0 +1,604 @@
+mouseWheel:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  closed: false
+  currentObservers: null
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Bold
+      id: boldText
+      target: .e-elementcontent
+      iconCss: fa fa-bold
+    - text: Italicize
+      id: italicizeText
+      target: .e-elementcontent
+      iconCss: fa fa-italic
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 603
+  horizontalOffset: -296
+  verticalOffset: -140
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 603
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_storage_Black_87_qiifqy.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/cloud_storage_donk5b.webp);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storing and retrieving data globally in a
+        scalable and secure manner</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud StorageufRyZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Storage
+        shortDescription: Storing and retrieving data globally in a scalable and secure manner
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Google Cloud Storage
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/cloud_storage_donk5b.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/cloud_storage__044448_vsadzn.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/cloud_storage_Black_87_qiifqy.webp
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 290
+    offsetY: 301
+    zIndex: 2
+    outEdges:
+      - Straight ConnectorFDqZh
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Document_text_Black_87_v2_ct6mrg.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Document_text_v2_bydnxv.webp);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Training
+        Data</div></div></div>'
+    id: Text DataLxGkW
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Text Data
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Text Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Text Data
+      editableName: Training Data
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Text Data
+      category: 4
+      imgUrl: https://static.softwaresim.com/logos/webp/Document_text_v2_bydnxv.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Document_text__044448_v2_em4fvj.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Document_text_Black_87_v2_ct6mrg.webp
+      color: "#4e3391"
+      controlText: Text Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 116
+    height: 100
+    offsetX: 467
+    offsetY: 289
+    zIndex: 1
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/vertexai_Black_87_vxjlos.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/vertexai_lkhlnv.webp);"></div><div
+        class="c-text"><div class="c-title">Vertex AI (Fine-Tuning)</div><div
+        class="c-short-description">Deploying, building, and managing machine
+        learning models</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Vertex AIKTFhq
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Vertex AI
+        shortDescription: Deploying, building, and managing machine learning models
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Vertex AI
+      editableName: Vertex AI (Fine-Tuning)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Vertex AI
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/vertexai_lkhlnv.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/vertexai__044448_bktfch.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/vertexai_Black_87_vxjlos.webp
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 290
+    offsetY: 143
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorFDqZh
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #227BAB; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gemini_Black_87_r9nuw0.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Gemini_x94i26.webp);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Gemini</div></div></div>'
+    id: GeminiTwwgU
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Gemini
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Gemini
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Gemini
+      editableName: Gemini
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Gemini
+      category: 0
+      imgUrl: https://static.softwaresim.com/logos/webp/Gemini_x94i26.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Gemini__044448_yn7xvu.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Gemini_Black_87_r9nuw0.webp
+      color: "#227BAB"
+      controlText: Gemini
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 100
+    offsetX: 116
+    offsetY: 128
+    zIndex: 0
+    inEdges:
+      - Dashed Straight ConnectorX6dx8
+      - Dashed Straight ConnectorX6dx8Wl9Ow
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/vertexai_Black_87_vxjlos.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/vertexai_lkhlnv.webp);"></div><div
+        class="c-text"><div class="c-title">Vertex AI Studio</div><div
+        class="c-short-description">Using the new fine-tuned model via the
+        Google Cloud GUI (console)</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Vertex AIKTFhqEEIPV
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Vertex AI
+        shortDescription: Using the new fine-tuned model via the Google Cloud GUI (console)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Google Vertex AI
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Vertex AI
+      editableName: Vertex AI Studio
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Vertex AI
+      category: 5
+      imgUrl: https://static.softwaresim.com/logos/webp/vertexai_lkhlnv.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/vertexai__044448_bktfch.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/vertexai_Black_87_vxjlos.webp
+      color: "#3871e0"
+      controlText: Vertex AI
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: -131
+    offsetY: 92
+    zIndex: 5
+    outEdges:
+      - Dashed Straight ConnectorX6dx8
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3B77A7;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp);"></div><div
+        class="c-text"><div class="c-title">Python</div><div
+        class="c-short-description">Using our model via SDKs, API calls, etc.
+        (same cost as the base model)</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Python</div></div></div></div></div>'
+    id: PythonQvu2b
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Python
+        shortDescription: Using our model via SDKs, API calls, etc. (same cost as the base model)
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        totaling: false
+        total: 0
+        viewType: total
+        name: Python
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Python
+      editableName: Python
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Python
+      category: 8
+      imgUrl: https://static.softwaresim.com/logos/webp/Python_A_sgxbzs.webp
+      imgPrimaryUrl: https://static.softwaresim.com/logos/webp/Python_A__044448_g32jqq.webp
+      imgBlackUrl: https://static.softwaresim.com/logos/webp/Python_A__Black_87_nciqru.webp
+      controlText: Python
+      color: "#3B77A7"
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: -131
+    offsetY: 214
+    zIndex: 7
+    outEdges:
+      - Dashed Straight ConnectorX6dx8Wl9Ow
+connectors:
+  - id: Straight ConnectorFDqZh
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 290
+      y: 251
+    targetPoint:
+      x: 290
+      y: 193
+    sourceID: Google Cloud StorageufRyZ
+    targetID: Google Vertex AIKTFhq
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorX6dx8
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 19
+      y: 113.86
+    targetPoint:
+      x: 66
+      y: 120.71
+    sourceID: Google Vertex AIKTFhqEEIPV
+    targetID: GeminiTwwgU
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectorX6dx8Wl9Ow
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 12.61
+      y: 164
+    targetPoint:
+      x: 66
+      y: 145.41
+    sourceID: PythonQvu2b
+    targetID: GeminiTwwgU
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+selectedItems:
+  width: 0
+  height: 0
